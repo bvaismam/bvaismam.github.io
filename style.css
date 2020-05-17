@@ -1,0 +1,117 @@
+body {
+	background: #202020;
+}
+
+@font-face {
+	font-family: 'Google Sans Bold';
+	src: url('/fonts/googlesans-bold-webfont.woff'),
+	url('/fonts/googlesans-bold-webfont.woff2');
+}
+
+@font-face {
+	font-family: 'Google Sans Italic';
+	src: url('/fonts/googlesans-italic-webfont.woff'),
+	url('/fonts/googlesans-italic-webfont.woff2');
+}
+
+@font-face {
+	font-family: 'Google Sans Medium';
+	src: url('/fonts/googlesans-medium-webfont.woff'),
+	url('/fonts/googlesans-medium-webfont.woff2');
+}
+
+@font-face {
+	font-family: 'Google Sans Regular';
+	src: url('/fonts/googlesans-regular-webfont.woff'),
+	url('/fonts/googlesans-regular-webfont.woff2');
+}
+
+#page-preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 100500;
+}
+
+#page-preloader .spinner {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background: url('spinner.gif') no-repeat 50% 50%;
+    margin: -16px 0 0 -16px;
+}
+
+.header {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+	z-index: 1;
+	text-align: center;
+	font-size: 400%;
+	color: #fff;
+	font-family: 'Google Sans Bold', sans-serif;
+	font-weight: bold;
+	margin-top: 17.5%;
+}
+
+.about {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+	z-index: 1;
+	text-align: center;
+	font-size: 150%;
+	color: #e5e5ee;
+	font-family: 'Google Sans Regular', sans-serif;
+	margin-top: -1%;
+}
+
+.vk {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+	position: absolute;
+	display: block;
+	margin-left: 42.5%;
+  margin-top: 0.15%;
+}
+
+.youtube {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+	position: absolute;
+	display: block;
+	margin-left: 47.5%;
+	margin-top: 0.15%;
+}
+
+.instagram {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+	position: absolute;
+	display: block;
+	margin-left: 52.5%;
+	margin-top: 0.15%;
+}
